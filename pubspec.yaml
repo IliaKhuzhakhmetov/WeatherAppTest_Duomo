@@ -1,0 +1,43 @@
+name: weather_test
+description: "Weather application Test Task"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Network  
+  dio: ^5.4.3+1
+  # (optional) Can be refactored with using dio
+  oauth2: ^2.0.2
+
+  # Environment
+  flutter_dotenv: ^5.1.0 
+
+  # Arch
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.5
+  bloc_concurrency: ^0.2.5
+
+  # Utils
+  logging: ^1.2.0
+  flutter_secure_storage: ^9.2.2
+  rxdart: ^0.27.7
+
+  # UI
+  search_choices: ^2.2.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
