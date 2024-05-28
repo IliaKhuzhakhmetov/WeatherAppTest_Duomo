@@ -42,9 +42,8 @@ A simple weather application with a single screen containing a search bar. Users
 
 ## Dependencies
 
-- Flutter
-- Dio (for HTTP requests)
-- Provider (for state management)
+- Dio, oauth2 (for HTTP requests)
+- BLoC (for state management)
 - Flutter_dotenv (for environment variables)
 
 ## Usage
