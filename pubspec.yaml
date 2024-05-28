@@ -28,9 +28,6 @@ dependencies:
   flutter_secure_storage: ^9.2.2
   rxdart: ^0.27.7
 
-  # UI
-  search_choices: ^2.2.7
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
