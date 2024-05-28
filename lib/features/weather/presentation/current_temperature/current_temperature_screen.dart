@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather_test/core/base/di/dependency_service.dart';
-import 'package:weather_test/features/app/presentation/current_temperature/bloc/get_current_weather_bloc.dart';
-import 'package:weather_test/features/app/presentation/current_temperature/widgets/temperature_widget.dart';
+import 'package:weather_test/features/weather/presentation/current_temperature/bloc/get_current_weather_bloc.dart';
+import 'package:weather_test/features/weather/presentation/current_temperature/widgets/temperature_widget.dart';
 import 'package:weather_test/features/city/domain/entities/city_entity.dart';
 import 'package:weather_test/features/city/presentation/widgets/city_search_bar/city_search_bar.dart';
 

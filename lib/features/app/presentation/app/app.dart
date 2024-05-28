@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_test/features/app/presentation/current_temperature/current_temperature_screen.dart';
+import 'package:weather_test/features/weather/presentation/current_temperature/current_temperature_screen.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

@@ -3,7 +3,7 @@ import 'package:weather_test/core/base/di/dependency_registrar.dart';
 import 'package:weather_test/core/base/di/service_descriptor.dart';
 import 'package:weather_test/core/base/factories/dio_client_factory.dart';
 import 'package:weather_test/core/constants.dart';
-import 'package:weather_test/features/app/presentation/current_temperature/bloc/get_current_weather_bloc.dart';
+import 'package:weather_test/features/weather/presentation/current_temperature/bloc/get_current_weather_bloc.dart';
 import 'package:weather_test/features/weather/data/datasources/weather_remote_datasource.dart';
 import 'package:weather_test/features/weather/data/mappers/weather_entity_mapper.dart';
 import 'package:weather_test/features/weather/data/repositories/weather_repository_impl.dart';

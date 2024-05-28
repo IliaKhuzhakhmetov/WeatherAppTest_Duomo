@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather_test/features/app/presentation/current_temperature/bloc/get_current_weather_event.dart';
-import 'package:weather_test/features/app/presentation/current_temperature/bloc/get_current_weather_state.dart';
+import 'package:weather_test/features/weather/presentation/current_temperature/bloc/get_current_weather_event.dart';
+import 'package:weather_test/features/weather/presentation/current_temperature/bloc/get_current_weather_state.dart';
 import 'package:weather_test/features/weather/domain/usecases/get_current_weather_usecase.dart';
 
-export 'package:weather_test/features/app/presentation/current_temperature/bloc/get_current_weather_event.dart';
-export 'package:weather_test/features/app/presentation/current_temperature/bloc/get_current_weather_state.dart';
+export 'package:weather_test/features/weather/presentation/current_temperature/bloc/get_current_weather_event.dart';
+export 'package:weather_test/features/weather/presentation/current_temperature/bloc/get_current_weather_state.dart';
 
 class GetCurrentWeatherBloc extends Bloc<GetCurrentWeatherEvent, GetCurrentWeatherState> {
   final GetCurrentWeatherUseCase _getCurrentWeatherUseCase;
