@@ -33,12 +33,6 @@ class _CitySearchBarState extends State<CitySearchBar> {
           controller: _searchController,
           hintText: 'Start to type the city name...',
           leading: const Icon(Icons.search),
-          trailing: [
-            IconButton(
-              icon: const Icon(Icons.close),
-              onPressed: () => _searchController.clear(),
-            )
-          ],
           onChanged: (query) => _openSearchDelegate(context, query),
           onTap: () => _openSearchDelegate(context, _searchController.text),
         ),
