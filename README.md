@@ -20,8 +20,7 @@ A simple weather application with a single screen containing a search bar. Users
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/weather_test.git
-    cd weather_test
+    git clone git@github.com:IliaKhuzhakhmetov/WeatherAppTest_Duomo.git
     ```
 
 2. Install the dependencies:
