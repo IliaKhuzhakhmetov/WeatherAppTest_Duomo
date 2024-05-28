@@ -16,6 +16,17 @@ A simple weather application with a single screen containing a search bar. Users
 
 ![App Usage](.git-files/demo.gif)
 
+## Potential Improvements
+
+### Error Handling:
+    - Improve error handling to provide meaningful error messages to the user in case of API failures or network issues.
+
+### Localization:
+    - Add support for multiple languages to cater to a wider audience.
+
+### Testing:
+    - Write unit tests and integration tests to ensure the reliability and stability of the application.
+
 ## Installation
 
 1. Clone the repository:
